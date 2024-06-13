@@ -1,0 +1,47 @@
+# do VOTING_MACHINE.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:49 on Apr 26,2023
+# vlog -work work VOTING_MACHINE.vo 
+# -- Compiling module VOTING_MACHINE
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	VOTING_MACHINE
+# End time: 22:57:49 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:49 on Apr 26,2023
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module VOTING_MACHINE_vlg_vec_tst
+# 
+# Top level modules:
+# 	VOTING_MACHINE_vlg_vec_tst
+# End time: 22:57:49 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.VOTING_MACHINE_vlg_vec_tst 
+# Start time: 22:57:49 on Apr 26,2023
+# Loading work.VOTING_MACHINE_vlg_vec_tst
+# Loading work.VOTING_MACHINE
+# Loading work.hard_block
+# Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb
+# Loading fiftyfivenm_ver.fiftyfivenm_io_obuf
+# Loading fiftyfivenm_ver.fiftyfivenm_io_ibuf
+# Loading fiftyfivenm_ver.fiftyfivenm_clkctrl
+# Loading fiftyfivenm_ver.fiftyfivenm_mux41
+# Loading fiftyfivenm_ver.fiftyfivenm_ena_reg
+# Loading altera_ver.dffeas
+# Loading fiftyfivenm_ver.fiftyfivenm_unvm
+# Loading fiftyfivenm_ver.fiftyfivenm_adcblock
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3017) VOTING_MACHINE.vo(12019): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /VOTING_MACHINE_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/fiftyfivenm_atoms.v
+# ** Warning: (vsim-3722) VOTING_MACHINE.vo(12019): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Warning: (vsim-3017) VOTING_MACHINE.vo(12042): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /VOTING_MACHINE_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC2~  File: /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/fiftyfivenm_atoms.v
+# ** Warning: (vsim-3722) VOTING_MACHINE.vo(12042): [TFMPC] - Missing connection for port 'clk_dft'.
+# after#26
+# ** Note: $finish    : Waveform.vwf.vt(57)
+#    Time: 1 us  Iteration: 0  Instance: /VOTING_MACHINE_vlg_vec_tst
+# End time: 22:57:49 on Apr 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4

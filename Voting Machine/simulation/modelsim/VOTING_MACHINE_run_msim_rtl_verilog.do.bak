@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/19.1/quartus_project/New\ folder\ (2) {C:/intelFPGA_lite/19.1/quartus_project/New folder (2)/VOTING_MACHINE.v}
+

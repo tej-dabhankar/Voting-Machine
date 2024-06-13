@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/19.1/quartus_project/Voting Machine/simulation/qsim
+vhard_block
+Z1 !s110 1682530069
+!i10b 1
+!s100 [6a=U:@ecD7PfI89A[M461
+IdH^KFMRkLVbKcbJ2ngGNz0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1682530068
+Z4 8VOTING_MACHINE.vo
+Z5 FVOTING_MACHINE.vo
+L0 12082
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1682530069.000000
+Z8 !s107 VOTING_MACHINE.vo|
+Z9 !s90 -work|work|VOTING_MACHINE.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vVOTING_MACHINE
+R1
+!i10b 1
+!s100 2Zk6=nePg=m4bi`WHZE9E3
+IYd;A>MaKeUAGOG4PV<McC3
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@v@o@t@i@n@g_@m@a@c@h@i@n@e
+vVOTING_MACHINE_vlg_vec_tst
+R1
+!i10b 1
+!s100 2J_b^W^@fRk3`2a0J3cc42
+I]zO@PQc?DcZ::8I;6X]2I3
+R2
+R0
+w1682530067
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@v@o@t@i@n@g_@m@a@c@h@i@n@e_vlg_vec_tst

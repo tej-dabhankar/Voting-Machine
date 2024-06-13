@@ -1,0 +1,313 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "04/26/2023 22:57:47"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          VOTING_MACHINE
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module VOTING_MACHINE_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg button1;
+reg button2;
+reg button3;
+reg button4;
+reg clock;
+reg mode;
+reg reset;
+// wires                                               
+wire [7:0] leds;
+
+// assign statements (if any)                          
+VOTING_MACHINE i1 (
+// port map - connection between master ports and signals/registers   
+	.button1(button1),
+	.button2(button2),
+	.button3(button3),
+	.button4(button4),
+	.clock(clock),
+	.leds(leds),
+	.mode(mode),
+	.reset(reset)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// button1
+initial
+begin
+	button1 = 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #30000 1'b0;
+	button1 = #20000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #20000 1'b1;
+	button1 = #30000 1'b0;
+	button1 = #20000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #30000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #80000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #20000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #30000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #50000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #20000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #40000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #40000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #30000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #10000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #70000 1'b0;
+	button1 = #10000 1'b1;
+	button1 = #20000 1'b0;
+	button1 = #10000 1'b1;
+end 
+
+// button2
+initial
+begin
+	button2 = 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #40000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #30000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #40000 1'b0;
+	button2 = #40000 1'b1;
+	button2 = #20000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #30000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #30000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #20000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #20000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #30000 1'b1;
+	button2 = #20000 1'b0;
+	button2 = #30000 1'b1;
+	button2 = #40000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #20000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #10000 1'b1;
+	button2 = #40000 1'b0;
+	button2 = #40000 1'b1;
+	button2 = #10000 1'b0;
+	button2 = #20000 1'b1;
+end 
+
+// button3
+initial
+begin
+	button3 = 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #40000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #30000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #20000 1'b0;
+	button3 = #30000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #20000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #20000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #20000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #40000 1'b1;
+	button3 = #20000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #20000 1'b0;
+	button3 = #60000 1'b1;
+	button3 = #40000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #20000 1'b1;
+	button3 = #30000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #70000 1'b1;
+	button3 = #50000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #20000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #60000 1'b0;
+	button3 = #10000 1'b1;
+	button3 = #10000 1'b0;
+	button3 = #30000 1'b1;
+	button3 = #10000 1'b0;
+end 
+
+// button4
+initial
+begin
+	button4 = 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #20000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #30000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #40000 1'b1;
+	button4 = #20000 1'b0;
+	button4 = #40000 1'b1;
+	button4 = #70000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #20000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #30000 1'b1;
+	button4 = #20000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #60000 1'b1;
+	button4 = #60000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #40000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #30000 1'b1;
+	button4 = #20000 1'b0;
+	button4 = #30000 1'b1;
+	button4 = #20000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #30000 1'b0;
+	button4 = #20000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #10000 1'b1;
+	button4 = #10000 1'b0;
+	button4 = #10000 1'b1;
+end 
+
+// clock
+always
+begin
+	clock = 1'b0;
+	clock = #10000 1'b1;
+	#10000;
+end 
+
+// mode
+always
+begin
+	mode = 1'b0;
+	mode = #250000 1'b1;
+	#250000;
+end 
+
+// reset
+initial
+begin
+	reset = 1'b0;
+end 
+endmodule
+

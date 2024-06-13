@@ -1,0 +1,122 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/19.1/quartus_project/Voting Machine/simulation/modelsim
+vbuttoncontrol
+Z1 !s110 1679054655
+!i10b 1
+!s100 Id8a4nDnSe5928GFS^=<D2
+Ii^YJi:XP9n6=5jmNzBK280
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1678857842
+Z4 8C:/intelFPGA_lite/19.1/quartus_project/Voting Machine/VOTING_MACHINE.v
+Z5 FC:/intelFPGA_lite/19.1/quartus_project/Voting Machine/VOTING_MACHINE.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1679054655.000000
+Z8 !s107 C:/intelFPGA_lite/19.1/quartus_project/Voting Machine/VOTING_MACHINE.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/19.1/quartus_project/Voting Machine|C:/intelFPGA_lite/19.1/quartus_project/Voting Machine/VOTING_MACHINE.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/intelFPGA_lite/19.1/quartus_project/Voting Machine}
+Z12 tCvgOpt 0
+vmodecontrol
+R1
+!i10b 1
+!s100 TiTHA]H3;VbLdQCm>U1[K2
+IP0BCKi94?@l`EfgI86:6W2
+R2
+R0
+R3
+R4
+R5
+L0 81
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vTb_Voting_Machine
+R1
+!i10b 1
+!s100 0UQ;Mjc=RoE2k6hOLUH<f0
+I<68g8Z1YWTZTK25DZfQUZ2
+R2
+R0
+w1679054536
+8C:/intelFPGA_lite/19.1/quartus_project/Voting Machine/Tb_Voting_Machine.v
+FC:/intelFPGA_lite/19.1/quartus_project/Voting Machine/Tb_Voting_Machine.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/19.1/quartus_project/Voting Machine/Tb_Voting_Machine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/19.1/quartus_project/Voting Machine|C:/intelFPGA_lite/19.1/quartus_project/Voting Machine/Tb_Voting_Machine.v|
+!i113 1
+R10
+R11
+R12
+n@tb_@voting_@machine
+vvotelogger
+R1
+!i10b 1
+!s100 6fg=7JSCBXA0MVoHeL>1[2
+Iol]D28]98dkljfk_fTQSk1
+R2
+R0
+R3
+R4
+R5
+L0 42
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vVOTING_MACHINE
+R1
+!i10b 1
+!s100 Ez[2I=Aa6boze1joAGQ_92
+I<8dWH8A2;66BNBIVhOZSB1
+R2
+R0
+R3
+R4
+R5
+L0 138
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@v@o@t@i@n@g_@m@a@c@h@i@n@e

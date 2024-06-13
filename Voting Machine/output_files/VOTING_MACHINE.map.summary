@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Apr 26 08:12:31 2023
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : VOTING_MACHINE
+Top-level Entity Name : VOTING_MACHINE
+Family : MAX 10
+Total logic elements : 417
+    Total combinational functions : 417
+    Dedicated logic registers : 199
+Total registers : 199
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
